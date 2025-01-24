@@ -1,0 +1,60 @@
+
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+
+# Conda environments
+*.conda
+*.env
+
+# IDE-specific files
+.idea/
+.vscode/
+*.swp
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# Cache and temporary files
+*.cache
+*.tmp
+*.bak
+*.swp
+*.DS_Store
+Thumbs.db
+
+# Secrets and credentials
+.env
+*.key
+*.pem
+
+# Python package files
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Docker and container files
+*.dockerignore
+docker-compose.override.yml
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Files related to the Medical Chatbot AI project
+store_index.py
+*.sqlite3
+*.db
+local_settings.py
+# Miniconda installer
+Miniconda3-latest-Linux-x86_64.sh
